@@ -1,0 +1,342 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+footer{
+    margin-top: 75px;
+    padding-bottom: 100px;
+}
+
+.bolme{
+    height: 130px;
+    width: 100%;
+    background-color: rgb(183, 224, 230);
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.block{
+    display: grid;
+    margin-top: 50px;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.asagi{
+    height: 300px;
+    width: 350px;
+}
+.asagi:hover {
+    width: 450px;
+    height: 400px;
+  }
+
+ @keyframes logo {
+    0% {
+        transform: rotate(0deg);
+    }
+    4% {
+        transform: rotate(15deg);
+    }
+    8% {
+        transform: rotate(30deg);
+    }
+    12% {
+        transform: rotate(45deg);
+    }
+    16% {
+        transform: rotate(60deg);
+    }
+    20% {
+        transform: rotate(75deg);
+    }
+    24% {
+        transform: rotate(90deg);
+    }
+    28% {
+        transform: rotate(105deg);
+    }
+    32% {
+        transform: rotate(120deg);
+    }
+    36% {
+        transform: rotate(135deg);
+    }
+    40% {
+        transform: rotate(150deg);
+    }
+    44% {
+        transform: rotate(165deg);
+    }
+    48% {
+        transform: rotate(180deg);
+    }
+    52% {
+        transform: rotate(195deg);
+    }
+    56% {
+        transform: rotate(205deg);
+    }
+    60% {
+        transform: rotate(220deg);
+    }
+    64% {
+        transform: rotate(235deg);
+    }
+    68% {
+        transform: rotate(250deg);
+    }
+    72% {
+        transform: rotate(265deg);
+    }
+    76% {
+        transform: rotate(280deg);
+    }
+    80% {
+        transform: rotate(295deg);
+    }
+    84% {
+        transform: rotate(305deg);
+    }
+    88% {
+        transform: rotate(320deg);
+    }
+    92% {
+        transform: rotate(335deg);
+    }
+    96% {
+        transform: rotate(350deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+    
+}
+ .logo{
+    width: 80px;
+    height: 80px;
+    animation-name: logo;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+ }
+
+ .christ{
+    height: 70px;
+    width: 170px;
+    border-radius: 50%;
+    
+ }
+
+.sutkurabiye{
+    width: 110px;
+    height: 90px;
+    border-radius: 50%;
+}
+.sutkurabiye:hover {
+    width: 150px;
+    height: 150px;
+  }
+
+
+.orta{
+    height: 400px;
+    width: 400px;
+    position: relative;
+    animation-name: linear-move;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes linear-move{
+    0%{
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateX(20%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+  }
+
+h2{
+    color: blueviolet;
+}
+
+.list-items{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.links{
+    width: 200px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 3px;
+    text-align: center;
+    background-color: rgba(240, 248, 255, 0.275);
+    
+}
+.links:hover{
+    background-color: antiquewhite;
+}
+
+
+.ilka:visited {
+    color: rgb(0, 83, 128);
+}
+  
+.ilka:active {
+    color: rgb(255, 0, 195);
+}
+
+a{
+    text-decoration: none;
+}
+
+.navbar{
+    width:100%;
+    height: 150px;
+    position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    background-color: rgba(240, 248, 255, 0.275);
+}
+
+
+.mainbar{
+    margin-top: 80px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.kirmizi{
+  width: 100px;
+  height: 100px;
+  transition: height 2s;
+  transition-timing-function: linear;
+}
+.kirmizi:hover {
+    height: 300px;
+    width: 300px;
+  }
+
+.shops{
+    width: 200px;
+    height: 200px;
+}
+
+.shops:hover {
+    width: 300px;
+    height: 300px;
+  }
+
+.tree{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    justify-content: center;
+}
+
+.gift{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    justify-content: center;
+}
+
+.icon{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 40px;
+}
+
+.place{
+    margin-top: 50px;
+    height: 400px;
+    width: 500px;
+    margin-left: 510px;
+}
+
+.kucuk{
+    font-size: 60px;
+}
+
+.contact{
+    display:list-item;
+    margin-left: 1200px;
+}
+
+@keyframes example {
+   0%  { left:0px; top:0px;}
+  25%  { left:200px; top:0px;}
+  50%  { left:200px; top:200px;}
+  75%  { left:0px; top:200px;}
+  100% { left:0px; top:0px;}
+
+  }
+  
+
+.kucuk {
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+  }
+
+.recipe{
+    margin-top: 20px;
+    margin-left: 250px;
+    height: 1000px;
+    width: 1000px;
+    border: 1px solid white;
+    border-radius: 50%;
+    background-color: rgb(144, 174, 225);
+}
+
+
+@keyframes cssanimasyonlar5
+{
+        0%   { left:100px; top:0px; bottom: 5px;}
+        25%  { left:0px; top:100px; bottom: 0px;}
+        35%  { left:100px; top:0px; bottom: 5px;}
+        45%  { left:0px; top:100px; bottom: 0px;}
+        50%  { left:100px; top:0px; bottom: 5px;}
+        64%  { left:0px; top:100px; bottom: 0px;}
+        75%  { left:100px; top:0px; bottom: 5px;}
+        85%  { left:0px; top:100px; bottom: 0px;}
+        90%  { left:100px; top:0px; bottom: 5px;}
+        100% { left:100px; top:0px; bottom: 5px;}
+}
+
+.senta {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    animation-name: cssanimasyonlar5;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+ }
+
+
+
